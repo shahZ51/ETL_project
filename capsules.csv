@@ -1,0 +1,19 @@
+,capsule_id,capsule_serial,details,original_launch,landings,mission_name,mission_flight,type,reuse_count,status
+0,dragon1,C101,Reentered after three weeks in orbit,2010-12-08 15:43:00+00:00,0,COTS 1,7.0,Dragon 1.0,0,retired
+1,dragon1,C102,First Dragon spacecraft,2012-05-02 07:44:00+00:00,1,COTS 2,8.0,Dragon 1.0,0,retired
+2,dragon1,C103,First of twenty missions flown under the CRS1 contract,2012-10-08 00:35:00+00:00,1,CRS-1,9.0,Dragon 1.0,0,unknown
+3,dragon1,C104,,2013-03-01 19:10:00+00:00,1,CRS-2,10.0,Dragon 1.0,0,unknown
+4,dragon1,C105,First Dragon v1.1 capsule,2014-04-18 19:25:00+00:00,1,CRS-3,14.0,Dragon 1.1,0,unknown
+5,dragon1,C106,First Dragon capsule to be reused,2014-09-21 05:52:00+00:00,3,CRS-4,18.0,Dragon 1.1,2,active
+6,dragon1,C107,,2015-01-10 09:47:00+00:00,1,CRS-5,19.0,Dragon 1.1,0,unknown
+7,dragon1,C108,Second Dragon capsule to be reused,2015-04-14 20:10:00+00:00,3,CRS-6,22.0,Dragon 1.1,2,active
+8,dragon1,C109,Destroyed on impact after F9 launch failure,2015-06-28 14:21:00+00:00,0,CRS-7,24.0,Dragon 1.1,0,destroyed
+9,dragon1,C110,,2016-04-08 20:43:00+00:00,2,CRS-8,28.0,Dragon 1.1,1,active
+10,dragon1,C111,,2016-07-18 04:45:00+00:00,2,CRS-9,32.0,Dragon 1.1,1,active
+11,dragon1,C112,,2017-02-19 14:39:00+00:00,2,CRS-10,36.0,Dragon 1.1,1,active
+12,dragon1,C113,The last newly manufactured Dragon 1,2017-08-14 16:31:00+00:00,2,CRS-12,45.0,Dragon 1.1,1,active
+13,dragon2,C201,"Destroyed in a test anomaly at LZ-1 on April 20, 2019",2019-03-02 07:45:00+00:00,1,CCtCap Demo Mission 1,76.0,Dragon 2.0,0,active
+14,dragon2,C202,Capsule used to qualify Dragon 2's environmental control and life support systems.,,0,,,Dragon 2.0,0,active
+15,dragon2,C203,Rumored to be used for Inflight Abort Test after DM-1,,0,,,Dragon 2.0,0,active
+16,dragon2,C204,Currently in construction for use in DM-2,,0,,,Dragon 2.0,0,active
+17,dragon2,C205,In construction for use in first mission in contract under the CCtCap contract,,0,,,Dragon 2.0,0,active
