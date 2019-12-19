@@ -88,3 +88,60 @@ create table if not exists history(
 	flight_number int,
 	details text
 );
+drop table if exists history_link;
+create table if not exists history_link(
+	id serial primary key,
+	history_id int references history(id),
+	reddit text,
+	article text,
+	wikipedia text
+);
+
+drop table if exists landpads;
+create table if not exists landpads(
+	id varchar(5) primary key,
+	full_name varchar(25),
+	status varchar(10),
+	landing_type varchar(5),
+	attempted_landings int,
+	successful_landings int,
+	wikipedia text,
+	details text
+);
+
+drop table if exists landpads_location;
+create table if not exists landpads_location(
+	id serial primary key,
+	landpads_id varchar(5) references landpads(id),
+	name varchar(25),
+	region varchar(25),
+	latitude  float,
+	longitude float
+);
+drop table if exists ships;
+create table if not exists ships(
+	ship_id varchar(25) primary key,
+	ship_name varchar(25),
+	ship_model varchar(25) NULL,
+	ship_type varchar(10),
+	roles text [],
+	active boolean,
+	imo int,
+	mmsi int,
+	abs int,
+	class int,
+	weight_lbs int,
+	weight_kg int,
+	year_build int,
+	home_port varchar(50),
+	status varchar(10),
+	speed_kn int,
+	course_deg int NULL,
+	latitude float,
+	longitude float,
+	successful_landings int,
+	attempted_landings int,
+	missions text [],
+	url text,
+	image text
+)
