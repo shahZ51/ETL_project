@@ -21,15 +21,18 @@ create table if not exists capsule_mission(
 drop table if exists cores;
 create table if not exists cores(
  	core_serial varchar(10) primary key,
-	block int,
-	status varchar(10),
+	details text,
+	mission_name text,
+	mission_flight int,
+	asds_attempts int,
+	asds_landings int,
+	block int null,
 	original_launch date,
 	reuse_count int,
 	rtls_attempts int,
 	rtls_landings int,
-	asds_attempts int,
-	asds_landings int,
-	water_landing int
+	water_landing boolean,
+	status varchar(10)
 );
 drop table if exists cores_mission;
 create table if not exists cores_mission(
