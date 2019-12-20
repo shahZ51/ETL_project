@@ -9,36 +9,30 @@ create table if not exists capsules(
 	landings int,
 	type varchar,
 	details varchar,
-	reuse_count int
+	reuse_count int,
+	mission_name varchar,
+	mission_flight varchar
 );
 
-drop table if exists capsule_mission;
-create table if not exists capsule_mission(
-	capsule_mission_id serial primary key,
-	capsule_serial char(4) references capsules(capsule_serial),
-	name char(10),
-	flight int
-);
+
 drop table if exists cores CASCADE;
 create table if not exists cores(
  	core_serial varchar(10) primary key,
+	details text,
+	mission_name varchar,
+	mission_flight varchar,
+	asds_attempts int,
+	asds_landings int,
 	block int,
-	status varchar(10),
 	original_launch date,
 	reuse_count int,
 	rtls_attempts int,
 	rtls_landings int,
-	asds_attempts int,
-	asds_landings int,
-	water_landing boolean
+	water_landing boolean,
+	status varchar(10)
+	
 );
-drop table if exists cores_mission;
-create table if not exists cores_mission(
-	cores_mission_id serial primary key,
-	core_serial  varchar(10) references cores(core_serial),
-	name char(10),
-	flight int	
-);
+
 drop table if exists dragons;
 create table if not exists dragons(
 	id varchar(10) primary key,
@@ -221,11 +215,8 @@ create table if not exists launches(
 	launch_date date,
 	is_tenative boolean,
 	tentative_max_precision varchar(5),
-	rocket_id varchar(10) references rockets(rocket_id),
-	ships varchar(25) references ships(ship_id),	
+	ships varchar(25),	
 	launch_success boolean,
-	launch_failure_details json,
-	links json,
 	details text,
-	static_fire_date_utc varchar(25)
+	static_fire_date varchar(25)
 )
