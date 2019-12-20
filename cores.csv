@@ -1,0 +1,65 @@
+,core_serial,details,mission_name,mission_flight,asds_attempts,asds_landings,block,original_launch,reuse_count,rtls_attempts,rtls_landings,water_landing,status
+0,Merlin1A,Engine failure at T+33 seconds resulted in loss of vehicle,FalconSat,1.0,0,0,,2006-03-24T22:30:00.000Z,0,0,0,False,lost
+1,Merlin2A,"Successful first-stage burn and transition to second stage, maximal altitude 289 km. Harmonic oscillation at T+5 minutes Premature engine shutdown at T+7 min 30 s. Failed to reach orbit.",DemoSat,2.0,0,0,,2007-03-21T01:10:00.000Z,0,0,0,False,lost
+2,Merlin1C,Residual stage-1 thrust led to collision between stage 1 and stage 2.,Trailblazer,3.0,0,0,,2008-08-02T03:34:00.000Z,0,0,0,False,lost
+3,Merlin2C,"Initially scheduled for 23–25 Sep, carried dummy payload – mass simulator, 165 kg (originally intended to be RazakSAT.",RatSat,4.0,0,0,,2008-09-28T23:15:00.000Z,0,0,0,False,lost
+4,Merlin3C,,RazakSat,5.0,0,0,,2009-07-13T03:35:00.000Z,0,0,0,False,lost
+5,B0003,Stage Expended,Falcon 9 Test Flight,6.0,0,0,1.0,2010-06-04T18:45:00.000Z,0,0,0,False,lost
+6,B0004,First flight of Dragon,COTS 1,7.0,0,0,1.0,2010-12-08T15:43:00.000Z,0,0,0,False,lost
+7,B0005,,COTS 2,8.0,0,0,1.0,2012-05-22T07:44:00.000Z,0,0,0,False,lost
+8,B0006,Suffered engine out at T+1:19 but primary mission successful,CRS-1,9.0,0,0,1.0,2012-10-08T00:35:00.000Z,0,0,0,False,lost
+9,B0007,,CRS-2,10.0,0,0,1.0,2013-03-01T19:10:00.000Z,0,0,0,False,lost
+10,B1003,"First flight of Falcon 9 v1.1 upgrade, first Spacex flight from Vandenberg",CASSIOPE,11.0,0,0,1.0,2013-09-29T16:00:00.000Z,0,0,0,True,lost
+11,B1004,,SES-8,12.0,0,0,1.0,2013-12-03T22:41:00.000Z,0,0,0,False,lost
+12,B1005,,Thaicom 6,13.0,0,0,1.0,2014-01-06T18:06:00.000Z,0,0,0,False,lost
+13,B1006,Broke up after sucessful water landing,CRS-3,14.0,0,0,1.0,2014-04-18T19:25:00.000Z,0,0,0,True,lost
+14,B1007,Broke up after sucessful water landing,OG-2 Mission 1,15.0,0,0,1.0,2014-07-14T15:15:00.000Z,0,0,0,True,lost
+15,B1008,,AsiaSat 8,16.0,0,0,1.0,2014-08-05T08:00:00.000Z,0,0,0,False,lost
+16,B1011,,AsiaSat 6,17.0,0,0,1.0,2014-09-07T05:00:00.000Z,0,0,0,False,lost
+17,B1010,Broke up after sucessful water landing,CRS-4,18.0,0,0,1.0,2014-09-21T05:52:00.000Z,0,0,0,True,lost
+18,B1012,"Destroyed on impact with droneship, grid fin hydraulic fluid depleted",CRS-5,19.0,1,0,1.0,2015-01-10T09:47:00.000Z,0,0,0,False,lost
+19,B1013,Broke up after sucessful water landing,DSCOVR,20.0,0,0,1.0,2015-02-11T23:03:00.000Z,0,0,0,True,lost
+20,B1014,,ABS-3A / Eutelsat 115W B,21.0,0,0,1.0,2015-03-02T03:50:00.000Z,0,0,0,False,lost
+21,B1015,Destroyed on impact with droneship due to excess lateral velocity - throttle stiction,CRS-6,22.0,1,0,1.0,2015-04-14T20:10:00.000Z,0,0,0,False,lost
+22,B1016,,TürkmenÄlem 52°E / MonacoSAT,23.0,0,0,1.0,2015-04-27T23:03:00.000Z,0,0,0,False,lost
+23,B1018,RUD at T + 139s - second stage overpressure event due to defective COPV strut heim joint,CRS-7,24.0,0,0,1.0,2015-06-28T14:21:00.000Z,0,0,0,False,lost
+24,B1019,Retired; permanently displayed at Hawthorne headquarters. ,OG-2 Mission 2,25.0,0,0,1.0,2015-12-22T01:29:00.000Z,0,1,1,False,inactive
+25,B1017,Destroyed after drone ship landing due to landing leg failure,Jason 3,26.0,1,0,1.0,2016-01-17T15:42:00.000Z,0,0,0,False,lost
+26,B1020,"Destroyed on Impact with DroneShip (OCISLY) - Excess Velocity, Possible Fuel Exhaustion",SES-9,27.0,1,0,1.0,2016-03-04T23:35:00.000Z,0,0,0,False,lost
+27,B1021,Core will be given as a gift to the Cape.  ,CRS-8,28.0,2,2,2.0,2016-04-08T20:43:00.000Z,1,0,0,False,inactive
+28,B1022,Removed from active fleet for Δ Qualification Testing. Retired after eight to ten test cycles.  Currently partially disassembled at McGregor.,JCSAT-2B,29.0,1,1,2.0,2016-05-06T05:21:00.000Z,0,0,0,False,inactive
+29,B1023,*At LZ1 as 2018/02/06 ,Thaicom 8,30.0,1,1,2.0,2016-05-27T21:39:00.000Z,1,1,1,False,inactive
+30,B1024,RUD on deck of droneship (OCISLY),ABS-2A / Eutelsat 117W B,31.0,1,0,2.0,2016-06-15T14:29:00.000Z,0,0,0,False,lost
+31,B1025,*At LZ2 as 2018/02/06 ,CRS-9,32.0,0,0,2.0,2016-07-18T04:45:00.000Z,1,2,2,False,inactive
+32,B1026,Permanently scrapped.  ,JCSAT-16,33.0,1,1,2.0,2016-08-14T05:26:00.000Z,0,0,0,False,lost
+33,B1028,Destroyed on pad September 1 2016 during static fire anomaly.,Amos-6,34.0,0,0,3.0,2016-09-01T13:07:00.000Z,0,0,0,False,lost
+34,B1029,Will be given to KSC Visitors Center. ,Iridium NEXT Mission 1,35.0,2,2,3.0,2017-01-14T17:54:00.000Z,1,0,0,False,inactive
+35,B1031,"Stored outside at McGregor, partially disassembled (missing engines). ",CRS-10,36.0,1,1,3.0,2017-02-19T14:39:00.000Z,1,1,1,False,inactive
+36,B1030,Stage Expended,EchoStar 23,37.0,0,0,3.0,2017-03-16T06:00:00.000Z,0,0,0,False,lost
+37,B1032,"Survived water landing, SpaceX couldn't tug it back to port, so they hired a company to destroy it.  ",NROL-76,39.0,0,0,3.0,2017-05-01T11:15:00.000Z,1,1,1,True,lost
+38,B1034,Stage Expended,Inmarsat-5 F4,40.0,0,0,3.0,2017-05-15T23:21:00.000Z,0,0,0,False,lost
+39,B1035,To be moved to Space Center Houston for display this summer.,CRS-11,41.0,0,0,3.0,2017-06-03T21:07:00.000Z,1,2,2,False,inactive
+40,B1036,Broke Up After Successful Water Landing,Iridium NEXT Mission 2,43.0,1,1,3.0,2017-06-25T13:25:00.000Z,1,0,0,True,lost
+41,B1037,Stage Expended,Intelsat 35e,44.0,0,0,3.0,2017-07-05T23:35:00.000Z,0,0,0,False,lost
+42,B1039,Stage Expended,CRS-12,45.0,0,0,4.0,2017-08-14T16:31:00.000Z,1,1,1,False,lost
+43,B1038,Stage Expended,FormoSat-5,46.0,1,1,3.0,2017-08-24T18:50:00.000Z,1,0,0,False,lost
+44,B1040,Stage Expended,Boeing X-37B OTV-5,47.0,0,0,4.0,2017-09-07T13:50:00.000Z,1,1,1,False,lost
+45,B1041,Stage Expended,Iridium NEXT Mission 3,48.0,1,1,4.0,2017-10-09T12:37:00.000Z,1,0,0,False,lost
+46,B1042,retired. ,KoreaSat 5A,50.0,1,1,4.0,2017-10-30T19:34:00.000Z,0,0,0,False,inactive
+47,B1043,Stage Expended,ZUMA,53.0,0,0,4.0,2017-11-11T23:00:00.000Z,1,1,1,False,lost
+48,B1033,"Two of the outer engines didn't re-ignite for the landing burn, ran out of TEA/TEB igniters. ",Falcon Heavy Test Flight,55.0,1,0,3.0,2018-02-06T20:45:00.000Z,0,0,0,False,lost
+49,B1044,Stage Expended,Hispasat 30W-6,57.0,0,0,4.0,2018-03-06T05:33:00.000Z,0,0,0,False,lost
+50,B1045,Stage Expended,TESS,60.0,1,1,4.0,2018-04-18T22:51:00.000Z,1,0,0,False,lost
+51,B1046,At the Cape awaiting IFA launch.,Bangabandhu-1,61.0,3,3,5.0,2018-05-11T20:14:00.000Z,2,0,0,False,active
+52,B1047,Stage Expended,Telstar 19V,65.0,2,2,5.0,2018-07-22T05:50:00.000Z,2,0,0,False,lost
+53,B1048,"Landed on OCISLY as of Nov 11, 2019. ",Iridium NEXT Mission 7,66.0,3,3,5.0,2018-07-25T11:39:26.000Z,3,1,1,False,unknown
+54,B1049,"Landed on OCISLY as of May 24, 2019. ",Telstar 18V,68.0,3,3,5.0,2018-09-10T04:45:00.000Z,2,0,0,False,unknown
+55,B1050,"Towed to Port of Canaveral; future utility unknown as of Dec 7, 2018. ",CRS-16,72.0,0,0,5.0,2018-12-15T00:00:00.000Z,0,1,0,True,unknown
+56,B1054,Stage Expended,GPS III SV01,73.0,0,0,5.0,2018-12-23T13:51:00.000Z,0,0,0,False,lost
+57,B1051,"Landed at LZ-4 as of Jun 15, 2019. ",CCtCap Demo Mission 1,76.0,1,1,5.0,2019-03-02T07:45:00.000Z,1,1,1,False,unknown
+58,B1052,"Landed at LZ-1 as of Jun 25, 2019. ",ArabSat 6A,77.0,0,0,5.0,2019-04-11T22:35:00.000Z,1,2,2,False,unknown
+59,B1053,"Landed at LZ-2 as of Jun 25, 2019. ",ArabSat 6A,77.0,0,0,5.0,2019-04-11T22:35:00.000Z,1,2,2,False,unknown
+60,B1055,Toppled by rough seas and broken in two after safely landing aboard OCISLY,ArabSat 6A,77.0,1,1,5.0,2019-04-11T22:35:00.000Z,0,0,0,False,lost
+61,B1056,"Landed on OCISLY as of December 17, 2019. ",CRS-17,78.0,2,2,5.0,2019-05-04T06:48:00.000Z,2,1,1,False,unknown
+62,B1057,Exploded upon ocean impact a safe distance from OCISLY,,,1,0,5.0,,0,0,0,False,lost
+63,B1058,Undergoing testing at McGregor.,,,0,0,5.0,,0,0,0,False,active
